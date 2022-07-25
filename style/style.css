@@ -1,0 +1,131 @@
+body {
+    background: #EEEFF1;
+    background-size: contain;
+    font-family: "Roboto", sans-serif;
+    margin: 0 auto;
+    }
+p {
+    font-size: 16px;
+    line-height: 26px;
+    width: 540px;
+}
+h1 {
+    font-size: 48px;
+    font-weight: 500;
+    line-height: 79px;
+}
+h2 {
+    font-size: 32px;
+    font-weight: 500;
+    line-height: 38px;
+    text-align: center;
+}
+h3 {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+}
+.sections {
+    padding-left: 21%;
+    padding-right: 21%;
+}
+
+/* Main Navigation */
+
+#main__nav {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 611px;
+    padding-top: 79px;
+}
+.main__nav__link {
+    text-decoration: none;
+    color: #000;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    letter-spacing: 0.1em;
+}
+#main__nav__link__1 {
+    color: #34547A;
+    font-weight: 500;
+}
+
+/* Main Page */
+
+#main__page {
+    padding-top: 162px;
+    padding-bottom: 141px;
+}
+#main__page article p {
+    margin-top: 60px;
+    margin-bottom: 65px;
+}
+button {
+    padding: 20px 40px;
+    font-size: 16px;
+    letter-spacing: 0.1em;
+    border-color: #34547A;
+}
+button, #my__works, footer {
+    background-color: #34547A;
+    color: #FFFFFF;
+}
+
+/* About Me */
+
+#about__me {
+    background-color: #FFFFFF;
+    padding-top: 112px;
+    padding-bottom: 100px;
+}
+#about__me article p, #process article p {
+    margin-top: 50px;
+    text-align: center;
+}
+#about__me {
+    display: flex;
+    justify-content: center;
+}
+
+/* My Works */
+
+#my__works {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.my__works__item {
+    width: 141px;
+    display: flex;
+}
+.my__works__item img {
+    width: 50px;
+}
+
+/* Process */
+
+#process article {
+    padding-top: 100px;
+    padding-bottom: 57px;
+}
+#process {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#process video, #process iframe {
+    width: 880px;
+    height: 475px;
+    margin-bottom: 70px;
+}
+
+/* Contacts */
+
+#contacts {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
